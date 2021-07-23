@@ -1,4 +1,15 @@
 # 11 Express.js: Note Taker
+heroku deloyed: https://cryptic-meadow-17352.herokuapp.com/
+
+This note taking application allows you to save notes with a title and plain text. Powered by ExpressJS, the Note Taker app!
+
+## Image
+
+
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/013/659/original/Note-Taker_image.PNG?1627051481" width = 700>
+
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/013/660/original/Note-Taker_image.PNG2.PNG?1627051490" width =730>
+
 
 ## Acceptance Criteria
 
@@ -33,3 +44,5 @@ The following API routes should be created:
 * `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
 
 * `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
+
+Created by Zhansaya Sarmanova
